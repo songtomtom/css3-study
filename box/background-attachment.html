@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    body {
+      height: 600px;
+    }
+
+    div {
+      width: 30%;
+      height: 300px;
+      overflow: auto;
+      float: left;
+      margin: 0px 10px;
+      background-image: url("./bg-300x200.jpg");
+      background-repeat: no-repeat;
+      border: 1px solid #bcbcbc;
+      font-size: 36px;
+    }
+
+    .ex-scroll {
+      background-attachment: scroll;
+    }
+
+    .ex-fixed {
+      background-attachment: fixed;
+    }
+
+    .ex-local {
+      background-attachment: local;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ex-scroll">
+    <p>scroll</p>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+      <li>Six</li>
+      <li>Seven</li>
+      <li>Eight</li>
+      <li>Nine</li>
+      <li>Ten</li>
+    </ul>
+  </div>
+  <div class="ex-fixed">
+    <p>fixed</p>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+      <li>Six</li>
+      <li>Seven</li>
+      <li>Eight</li>
+      <li>Nine</li>
+      <li>Ten</li>
+    </ul>
+  </div>
+  <div class="ex-local">
+    <p>local</p>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+      <li>Six</li>
+      <li>Seven</li>
+      <li>Eight</li>
+      <li>Nine</li>
+      <li>Ten</li>
+    </ul>
+  </div>
+</body>
+
+</html>

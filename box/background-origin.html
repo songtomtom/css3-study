@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    div {
+      box-sizing: border-box;
+      width: 100%;
+      height: 150px;
+      margin: 20px 0px;
+      padding: 20px;
+      border: 20px dotted #dadada;
+      background-image: url("./bg-300x200.jpg");
+      background-repeat: no-repeat;
+      color: blue;
+    }
+
+    .a {
+      background-origin: border-box;
+    }
+
+    .b {
+      background-origin: padding-box;
+    }
+
+    .c {
+      background-origin: content-box;
+    }
+  </style>
+</head>
+
+<body>
+  <p><code>background-origin: border-box;</code></p>
+  <div class="a">Lorem Ipsum Dolor</div>
+  <p><code>background-origin: padding-box;</code></p>
+  <div class="b">Lorem Ipsum Dolor</div>
+  <p><code>background-origin: content-box;</code></p>
+  <div class="c">Lorem Ipsum Dolor</div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <style>
+    table {
+      width: 100%;
+      border-top: 1px solid #444444;
+    }
+
+    td {
+      padding: 20px;
+      border: 1px solid #444444;
+    }
+
+    .abc {
+      caption-side: top;
+    }
+
+    .xyz {
+      caption-side: bottom;
+    }
+  </style>
+</head>
+
+<body>
+  <p>Captionside Top</p>
+  <table>
+    <caption class="abc">
+      caption-side: top;
+    </caption>
+    <tr>
+      <td>Lorem</td>
+      <td>Ipsum</td>
+      <td>Dolor</td>
+    </tr>
+    <tr>
+      <td>Sit</td>
+      <td>Amet</td>
+      <td>Elit</td>
+    </tr>
+  </table>
+
+  <p>Captionside Bottom</p>
+  <table>
+    <caption class="xyz">
+      caption-side: bottom;
+    </caption>
+    <tr>
+      <td>Lorem</td>
+      <td>Ipsum</td>
+      <td>Dolor</td>
+    </tr>
+    <tr>
+      <td>Sit</td>
+      <td>Amet</td>
+      <td>Elit</td>
+    </tr>
+  </table>
+</body>
+
+</html>
